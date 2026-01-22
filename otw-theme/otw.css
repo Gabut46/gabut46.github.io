@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Capture_it';
+    src: url('https://gabut46.github.io/otw-theme/Capture_it.ttf');
+}
+
 :root {
   --text-color: #cccccc;
   --color-dark-magenta: hsl(300, 10%, 25%);
@@ -623,60 +628,6 @@ main:has(> article > section.meta) {
   font-size: 10px;
 }
 
-.top-nav {
-  background-color: var(--top-nav-bg);
-  box-shadow: var(--top-nav-box-shadow);
-  display: grid;
-  grid-template-areas:
-    "left"
-    "right";
-  grid-template-rows: auto auto;
-  grid-template-columns: 1fr;
-  align-items: center;
-  padding: 1rem 2rem 0.5rem 2rem;
-}
-
-.top-nav__left {
-  grid-area: left;
-  display: flex;
-  column-gap: 32px;
-  justify-content: space-between;
-  width: 100%;
-  margin-bottom: 0.5rem;
-}
-
-.top-nav__main-menus {
-  grid-area: right;
-  display: flex;
-  list-style-type: none;
-  align-items: center;
-  margin: auto 0;
-  padding: 0;
-  justify-content: center;
-}
-
-.top-nav__right {
-  container-type: inline-size;
-  grid-area: right;
-  display: flex;
-  column-gap: 40px;
-  width: 60%;
-  margin-left: auto;
-  position: relative;
-  top: -6rem;
-}
-
-.top-nav__ratio-bar.top-nav__ratio-bar {
-  display: grid;
-  grid-template-rows: repeat(2, auto);
-  grid-template-columns: repeat(4, auto);
-  font-size: 12px;
-}
-
-.top-nav__stats {
-  display: none;
-}
-
 @container (min-width: 800px) {
   .top-nav__ratio-bar.top-nav__ratio-bar {
     display: grid;
@@ -807,9 +758,12 @@ body>header {
 }
 
 .top-nav__branding {
-  width: 220px;
-  height: 60px;
-  background: url(https://images2.imgbox.com/ed/76/QRozrt1Y_o.png);
+  width: 215px;
+  height: 28px;
+  background: url(https://images2.imgbox.com/7c/35/cZmHk96L_o.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: 35px;
 }
 
 .top-nav.mobile {
