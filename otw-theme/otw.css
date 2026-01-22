@@ -756,7 +756,7 @@ body>header {
   height: 35px;
   background-image: url(https://images2.imgbox.com/7c/35/cZmHk96L_o.png);
   background-repeat: no-repeat;
-  background-position-x: 35px;
+  background-position: 35px center; /* 35px = logo width */
   background-size: 83%; /* (width - background-position-x) / width */
 }
 
