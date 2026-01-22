@@ -700,6 +700,12 @@ main:has(> article > section.meta) {
   right: 0;
 }
 
+.top-nav__dropdown>a {
+  padding: 6px 14px;
+  margin: 0;
+}
+
+
 .nav-tab-menu__items {
   top: 30px;
 }
