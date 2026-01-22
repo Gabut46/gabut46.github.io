@@ -840,9 +840,9 @@ body>header {
   background-color: var(--panel-bg);
 }
 
-.compact-search .form__label.form__label--floating {
+/*.compact-search .form__label.form__label--floating {
   background-color: var(--bg-3);
-}
+}*/
 
 .compact-search {
   padding: 0.5rem;
