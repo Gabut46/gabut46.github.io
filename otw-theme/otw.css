@@ -652,7 +652,7 @@ main:has(> article > section.meta) {
   align-items: center;
   margin: auto 0;
   padding: 0;
-  justify-self: start;
+  justify-content: center;
 }
 
 .top-nav__right {
