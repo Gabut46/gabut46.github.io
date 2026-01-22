@@ -1,8 +1,3 @@
-@font-face {
-    font-family: 'captureit';
-    src: url('https://gabut46.github.io/otw-theme/captureit.ttf') format ('truetype');
-}
-
 :root {
   --text-color: #cccccc;
   --color-dark-magenta: hsl(300, 10%, 25%);
@@ -753,7 +748,7 @@ body>header {
 }
 
 .top-nav__site-logo {
-  font-family: captureit;
+  font-family: Arial,sans-serif;
   font-size: 35px;
 }
 
