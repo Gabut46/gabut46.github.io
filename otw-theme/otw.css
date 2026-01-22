@@ -705,9 +705,9 @@ main:has(> article > section.meta) {
 }
 
 .quick-search {
-  top: 66px;
   height: 32px;
   max-width: 280px;
+  align-self: center;
 }
 
 .quick-search__inputs {
@@ -748,17 +748,16 @@ body>header {
 }
 
 .top-nav__site-logo {
-  font-family: Arial,sans-serif;
-  font-size: 35px;
+  display: none;
 }
 
 .top-nav__branding {
   width: 215px;
-  height: 28px;
-  background: url(https://images2.imgbox.com/7c/35/cZmHk96L_o.png);
-  background-size: contain;
+  height: 35px;
+  background-image: url(https://images2.imgbox.com/7c/35/cZmHk96L_o.png);
   background-repeat: no-repeat;
   background-position-x: 35px;
+  background-size: 83%; /* (width - background-position-x) / width */
 }
 
 .top-nav.mobile {
