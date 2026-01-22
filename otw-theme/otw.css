@@ -846,4 +846,7 @@ body>header {
 
 .compact-search {
   padding: 0.5rem;
+  max-width: 1280px;
+  align-self: center;
+  width: 100%;
 }
