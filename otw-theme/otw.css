@@ -598,7 +598,7 @@ main {
 }
 
 main:has(> article > section.meta) {
-  background: rgba(10, 17, 27, .2);
+  background: transparent;
 }
 
 .page__torrents,
