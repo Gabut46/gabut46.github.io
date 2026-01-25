@@ -593,8 +593,7 @@ body {
 }
 
 main {
-  margin: 0 2rem;
-  padding: 2rem;
+  margin: 0 max(0px,10vw - 60px,25vw - 300px,45vw - 800px);
   background-color: var(--body-bg-secondary);
 }
 
@@ -732,8 +731,6 @@ body>header {
 }
 
 .secondary-nav {
-  margin-left: 2rem;
-  width: calc(100% - 4rem);
   position: relative;
 }
 
@@ -759,11 +756,11 @@ body>header {
 
 .top-nav__branding {
   width: 215px;
-  height: 35px;
+  height: 30px;
   background-image: url(https://images2.imgbox.com/7c/35/cZmHk96L_o.png);
   background-repeat: no-repeat;
-  background-position: 35px center; /* 35px = logo width */
-  background-size: 83%; /* (width - background-position-x) / width */
+  background-position: 40px center;
+  background-size: 70%;
 }
 
 .top-nav.mobile {
