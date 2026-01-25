@@ -722,6 +722,7 @@ main:has(> article > section.meta) {
 
 body>header {
   position: unset;
+  margin-bottom: 32px;
 }
 
 .top-nav--left__container .progress {
