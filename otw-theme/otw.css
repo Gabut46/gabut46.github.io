@@ -593,8 +593,9 @@ body {
 }
 
 main {
-  margin: 0 max(0px,10vw - 60px,25vw - 300px,45vw - 800px);
   background-color: var(--body-bg-secondary);
+  margin: -32px 0 0 0;
+  padding: 32px max(0px,10vw - 60px,25vw - 300px,45vw - 800px);
 }
 
 main:has(> article > section.meta) {
